@@ -87,17 +87,17 @@ const profileLists = [
 ];
 
 const featureLists = [
-    "Perfectly balanced blends",
-    "Garnished to perfection",
-    "Ice-cold every time",
-    "Expertly shaken & stirred",
+    "Harmonized to strike",
+    "Detailed to the final cut",
+    "Cold without apology",
+    "Controlled at every stage",
 ];
 
 const goodLists = [
-    "Handpicked ingredients",
-    "Signature techniques",
-    "Bartending artistry in action",
-    "Freshly muddled flavors",
+    "Curated ingredients, uncompromised",
+    "Disciplined mixology",
+    "Relentless attention to craft",
+    "Nothing incidental",
 ];
 
 const storeInfo = {
@@ -110,10 +110,9 @@ const storeInfo = {
 };
 
 const openingHours = [
-    { day: "Mon–Thu", time: "11:00am – 12am" },
-    { day: "Fri", time: "11:00am – 2am" },
-    { day: "Sat", time: "9:00am – 2am" },
-    { day: "Sun", time: "9:00am – 1am" },
+    { day: "Mon–Fri", time: "15:00 – 01:00" },
+    { day: "Sat", time: "13:00 – 02:00" },
+    { day: "Sun", time: "12:00 – 03:00" },
 ];
 
 const socials = [
