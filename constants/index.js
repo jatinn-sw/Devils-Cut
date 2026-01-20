@@ -8,7 +8,7 @@ const navLinks = [
         title: "About Us",
     },
     {
-        id: "work",
+        id: "art",
         title: "The Art",
     },
     {
@@ -110,9 +110,9 @@ const storeInfo = {
 };
 
 const openingHours = [
-    { day: "Mon–Fri", time: "15:00 – 01:00" },
-    { day: "Sat", time: "13:00 – 02:00" },
-    { day: "Sun", time: "12:00 – 03:00" },
+    { day: "Mon–Fri", time: "11:00 am to 2:30 am" },
+    { day: "Sat", time: "11:00 am to 4:30 am" },
+    { day: "Sun", time: "11:00 am to 3:30 am" },
 ];
 
 const socials = [
@@ -133,38 +133,38 @@ const socials = [
     },
 ];
 
-const sliderLists = [
+const allCocktails = [
     {
         id: 1,
-        name: "Classic Mojito",
+        name: "Moscow Mule",
         image: "/images/drink1.png",
-        title: "Simple Ingredients, Bold Flavor",
+        title: "Where citrus snaps and ginger bites",
         description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+            "A crisp fusion of smooth vodka, zesty lime juice, and fiery ginger beer, brightened with fresh lime wedges. Finished with spring mint for a cool, aromatic lift that makes every sip irresistibly refreshing.",
     },
     {
         id: 2,
-        name: "Raspberry Mojito",
+        name: "Destination Sour",
         image: "/images/drink2.png",
-        title: "A Zesty Classic That Never Fails",
+        title: "A soft pour with no intention of behaving",
         description:
-            "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+            "A silky blend of tequila and Martini Bianco, layered with tart lime, sweet raspberry, and a splash of orange juice. Finished with egg white for a smooth, cloud-like texture and a beautifully balanced citrus lift.",
     },
     {
         id: 3,
-        name: "Violet Breeze",
+        name: "New York Sour",
         image: "/images/drink3.png",
-        title: "Simple Ingredients, Bold Flavor",
+        title: "A slow burn with a mean streak",
         description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+            "Rye whiskey shaken cold with fresh lime juice and simple syrup for a sharp, balanced core. Topped with red wine for a rich, brooding finish that deepens with every sip.",
     },
     {
         id: 4,
-        name: "Curacao Mojito",
+        name: "White Russian",
         image: "/images/drink4.png",
-        title: "Crafted With Care, Poured With Love",
+        title: "Cream on top, chaos underneath",
         description:
-            "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+            "A luxurious blend of smooth vodka and rich coffee liqueur, delivering deep, roasted intensity. Finished with a silky layer of Baileys Irish Cream or heavy cream for an irresistibly decadent top.",
     },
 ];
 
@@ -178,5 +178,5 @@ export {
     openingHours,
     storeInfo,
     socials,
-    sliderLists,
+    allCocktails,
 };
