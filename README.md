@@ -51,32 +51,6 @@ npm run dev
 
 4. Open your browser and navigate to `http://localhost:4135`
 
-## 📁 Project Structure
-
-```
-Barista/
-├── public/
-│   ├── images/          # Image assets
-│   ├── videos/          # Video assets
-│   └── fonts/           # Custom fonts
-├── src/
-│   ├── components/      # React components
-│   │   ├── Navbar.jsx   # Navigation bar
-│   │   ├── Hero.jsx     # Hero section with video
-│   │   ├── Cocktails.jsx # Cocktail listings
-│   │   ├── About.jsx    # About section
-│   │   ├── Art.jsx      # Art section with mask animations
-│   │   ├── Menu.jsx     # Interactive menu slider
-│   │   └── Contact.jsx  # Contact/Footer section
-│   ├── constants/       # Data constants
-│   ├── App.jsx          # Main app component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
 ## 🎯 Key Highlights
 
 ### Animation Techniques
